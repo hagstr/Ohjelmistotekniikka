@@ -1,7 +1,9 @@
-## READ ME
+## Ohjelmistotekniikka, harjoitustyö
 
-A text (in the sense of literary theory) is any object that can be read, including:
+*Tehtävät*:
 
-Documents:
-Religious **text**, a writing that a religious tradition *considers* to be sacred
-Textbook, a book of instruction in any branch of study
+**Viikko 1**:
+
+* [Gitlog](https://github.com/hagstr/Ohjelmistotekniikka/blob/87154b43f01df66956fa0f14f3e6b999f7224d09/laskarit/viikko1/gitlog.txt)
+
+* [Komentorivi](https://github.com/hagstr/Ohjelmistotekniikka/blob/87154b43f01df66956fa0f14f3e6b999f7224d09/laskarit/viikko1/komentorivi.txt)
