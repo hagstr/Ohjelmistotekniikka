@@ -1,0 +1,114 @@
+commit 55fe88e046de09c04ccbefefef157241009795b8
+Author: Sara H <sara.hagstrm31@gmail.com>
+Date:   Tue Mar 19 13:50:25 2019 +0200
+
+    poisto ja uudelleenimentä
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f7a9e2665e338ecc98e9e4e9233fabcd42a32901
+Author: Sara H <sara.hagstrm31@gmail.com>
+Date:   Tue Mar 19 13:45:13 2019 +0200
+
+    kolme uutta tiedostoa
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 51d3f6dfc7f9d608640d29d9c3058aa846f0a57e
+Author: Sara H <sara.hagstrm31@gmail.com>
+Date:   Tue Mar 19 13:31:41 2019 +0200
+
+    changes
+
+ eka.txt    | 10 ++++++++--
+ kolmas.txt |  2 +-
+ 2 files changed, 9 insertions(+), 3 deletions(-)
+
+commit ac6e9ee506600204065943f747d828e4c0018bb0
+Author: Sara H <sara.hagstrm31@gmail.com>
+Date:   Tue Mar 19 13:24:43 2019 +0200
+
+    uudelleennimentä
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 34ba70c0890720916f15e96fd498ad899681a700
+Author: Sara H <sara.hagstrm31@gmail.com>
+Date:   Tue Mar 19 13:22:38 2019 +0200
+
+    poisto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 8e9e599ea7206a84bcff91c6fe2cc30c19d1329a
+Author: Sara H <sara.hagstrm31@gmail.com>
+Date:   Tue Mar 19 13:19:21 2019 +0200
+
+    tiedoston muokkaus
+
+ tiedosto.txt | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit 83927d31e9b1d78ad380f1e9266b2143334dd6c7
+Author: Sara H <sara.hagstrm31@gmail.com>
+Date:   Tue Mar 19 13:13:36 2019 +0200
+
+    muokkaus
+
+ tiedosto.txt | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+commit b9899d0235c2e7ebb5acc18eb92d8bf05ff23251
+Author: Sara Hagström <sara.hagstrom@helsinki.fi>
+Date:   Tue Mar 19 12:36:27 2019 +0200
+
+    luotu ja muokattu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit b764abacea48c63a2b93bf9a3edc0a5f5e13e197
+Author: Sara Hagström <sara.hagstrom@helsinki.fi>
+Date:   Tue Mar 19 12:34:57 2019 +0200
+
+    uusi hakemisto ja tiedosto
+
+ stuff/stuff_tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 31e423141998c33c20e6c9d0c3f44120f1758ed6
+Author: Sara Hagström <sara.hagstrom@helsinki.fi>
+Date:   Tue Mar 19 12:31:39 2019 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit aac409c4cbb5abca42899f5222aee09aaa87a4c3
+Author: Sara Hagström <sara.hagstrom@helsinki.fi>
+Date:   Tue Mar 19 12:25:25 2019 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 2 ++
+ toinen.txt   | 0
+ 2 files changed, 2 insertions(+)
+
+commit 7c6d510fb59b4adab2d251159a31d2db48b17170
+Author: Sara Hagström <sara.hagstrom@helsinki.fi>
+Date:   Tue Mar 19 12:17:13 2019 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
