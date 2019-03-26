@@ -20,5 +20,10 @@ Näkymän keskiosassa on kaksi korttipakkaa, joista oikeanpuoleisessa on kuvapuo
 Pakassa jossa on kuvapuoli ylöspäin näkyy viimeksi nostettu kortti. Jos pääsee pakan loppuun, eli
 voittaa, niin vasemmanpuoleinen pakka katoaa (sillä kortit ovat loppu).
 
-**Kolmas näkymä on joko voitto-ruutu tai häviö-ruutu, joka ilmestyy pelinn loputtua. Näkymistä löytyy
+**Kolmas** näkymä on joko voitto-ruutu tai häviö-ruutu, joka ilmestyy pelinn loputtua. Näkymistä löytyy
 "Uudestaan?"-nappi, jota painamalla pääsee ensimmäiseen näkymään ja voi halutessaan pelata uudestaan. 
+
+#Jatkokehitysideoita
+* Tieto jäljellä olevien korttien määrästä jos häviää, jotta tietää kuinka lähellä olisi ollut voittoa. 
+* Mahdollisuus käyttäjätunnuksen luomiseen, jolloin voi tallentaa tilastoa pelatuista peleistä, esim. voisi
+nähdä millä annetulla luvulla voittaa useimmiten. 
