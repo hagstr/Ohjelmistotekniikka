@@ -10,5 +10,5 @@
 **Viikko 2**:
 
 * [Määrittelydokumentti](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/M%C3%A4%C3%A4rittelydokumentti.md)
-* [Työaikakirjanpito]()
+* [Työaikakirjanpito](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Ty%C3%B6aikakirjanpito.md)
 * En saanut mavenia toimimaan koneellani, joten en saanut muita laskareita tehtyä/palautettua. 
