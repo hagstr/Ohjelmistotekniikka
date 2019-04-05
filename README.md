@@ -8,10 +8,5 @@ Sovellus on pasianssipeli jossa pelaaja luettelee lukuja 1-13 välillä samalla 
 
 * [Määrittelydokumentti](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/M%C3%A4%C3%A4rittelydokumentti.md)
 
-
-
-
-
-* Viikko 3 laskarit
-* [](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/laskarit/Viikko3.md)
+* [Viikko 3 laskarit](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/laskarit/Viikko3.md)
 
