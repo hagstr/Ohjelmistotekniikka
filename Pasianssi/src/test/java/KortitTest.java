@@ -12,8 +12,7 @@ public class KortitTest {
         Kortit k = new Kortit();
         
         for (int i = 0; i < 52; i++) {
-            k.nostaKortti();
-            System.out.println(k.getKortit().size());
+            k.nostaKortti();            
         }
         
         if(!k.onkoKorttejaJaljella()) {
