@@ -1,7 +1,8 @@
 
 package com.mycompany.pasianssi;
 
-import java.awt.Image;
+
+import java.io.FileInputStream;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.geometry.Insets;
@@ -9,6 +10,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -32,8 +35,9 @@ public class Kayttoliittyma extends Application{
         ylaTeksti.getChildren().addAll(korttiTeksti, korttejaJaljella);
         
         HBox kortit = new HBox(50);
-        Image pakka = new Image();
-        Image kortti = new Image();
+        Image pakka = new Image(new FileInputStream(url)); //red backside png
+        Image kortti = new Image(new FileInputStream(url)); //vaihtuu, valitaan randomisti, pitää kirjaa läpikäydyistä korteista
+        kortit.getChildren().addAll(new ImageView(pakka), new ImageView(kortti));
         
         sisalto.getChildren().addAll(ylaTeksti);
         
