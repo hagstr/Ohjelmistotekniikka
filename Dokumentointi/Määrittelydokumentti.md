@@ -11,7 +11,13 @@ on jos esimerkiksi nostetaan kortti jonka arvo on 4 samalla kun luetellaan luku 
 ## Käyttöliittymäluonnos ja toiminnallisuus
 Sovelluksessa on neljä eri näkymää.
 
+<<<<<<< HEAD:Dokumentointi/Määrittelydokumentti
 **Alkunäkymässä** on otsikkona pelin nimi, sekä kenttä johon käyttäjä
+=======
+![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/IMG_0451.jpg)
+
+ **Alkunäkymässä** on otsikkona pelin nimi, sekä kenttä johon käyttäjä
+>>>>>>> 5d1d046d061ea2a475402acf46fe0f3a4c0d91ca:Dokumentointi/Määrittelydokumentti.md
 syöttää luvun välillä 1-13. Kentän alla on aloita-nappi joka aloittaa pelin, ja näkymän alareunasta
 löytyvät pelin säännöt. Mikäli käyttäjä syöttää epäkelvon luvun, järjestelmä ilmoittaa tästä. 
 
@@ -23,7 +29,11 @@ voittaa, niin vasemmanpuoleinen pakka katoaa (sillä kortit ovat loppu).
 **Kolmas** näkymä on joko voitto-ruutu tai häviö-ruutu, joka ilmestyy pelinn loputtua. Näkymistä löytyy
 "Uudestaan?"-nappi, jota painamalla pääsee ensimmäiseen näkymään ja voi halutessaan pelata uudestaan. 
 
+<<<<<<< HEAD:Dokumentointi/Määrittelydokumentti
 ## Jatkokehitysideoita
+=======
+## Jatkokehitysiedoita
+>>>>>>> 5d1d046d061ea2a475402acf46fe0f3a4c0d91ca:Dokumentointi/Määrittelydokumentti.md
 * Tieto jäljellä olevien korttien määrästä jos häviää, jotta tietää kuinka lähellä olisi ollut voittoa. 
 * Mahdollisuus käyttäjätunnuksen luomiseen, jolloin voi tallentaa tilastoa pelatuista peleistä, esim. voisi
 nähdä millä annetulla luvulla voittaa useimmiten. 

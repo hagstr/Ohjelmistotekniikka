@@ -1,10 +1,12 @@
-## Ohjelmistotekniikka, harjoitustyö
+# Pasianssipeli
 
-*Tehtävät*:
+Sovellus on pasianssipeli jossa pelaaja luettelee lukuja 1-13 välillä samalla läpi käyden kokonaisen korttipakan. Jos pelajaa luettelee luvun joka on samalla nostetun kortin arvo, on peli hävitty. Jos pelaaja taas pääsee kortin loppuun saakka, on peli sen sijaan voitettu. 
 
-**Viikko 1**:
+## Dokumentaatio
 
-* [Gitlog](https://github.com/hagstr/Ohjelmistotekniikka/blob/87154b43f01df66956fa0f14f3e6b999f7224d09/laskarit/viikko1/gitlog.txt)
+* [Työaikakirjanpito](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Ty%C3%B6aikakirjanpito.md)
 
-* [Komentorivi](https://github.com/hagstr/Ohjelmistotekniikka/blob/87154b43f01df66956fa0f14f3e6b999f7224d09/laskarit/viikko1/komentorivi.txt)
+* [Määrittelydokumentti](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/M%C3%A4%C3%A4rittelydokumentti.md)
+
+* [Viikko 3 laskarit](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/laskarit/Viikko3.md)
 
