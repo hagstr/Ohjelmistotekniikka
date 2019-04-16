@@ -35,6 +35,7 @@ public class Kayttoliittyma extends Application {
     int luku;    
     Label nro;
     TextField input;
+    Label korttejaJaljella;
     
 
     public Kayttoliittyma() {
@@ -51,7 +52,7 @@ public class Kayttoliittyma extends Application {
         HBox ylaTeksti = new HBox(20);
         ylaTeksti.setPadding(new Insets(20));
         Label korttiTeksti = new Label("Kortteja jäljellä:");
-        Label korttejaJaljella = new Label(kortit.getKortit().size()+"");
+        korttejaJaljella = new Label(kortit.getKortit().size()-1+"");
         ylaTeksti.getChildren().addAll(korttiTeksti, korttejaJaljella);
         
         HBox vierekkaisetKortit = new HBox(50);
@@ -79,12 +80,12 @@ public class Kayttoliittyma extends Application {
                         tiedosto.matches("/PNG/" + peli.getLuku() + "D" + ".png") ||
                         tiedosto.matches("/PNG/" + peli.getLuku() + "C" + ".png") ||
                         tiedosto.matches("/PNG/" + peli.getLuku() + "S" + ".png")) {
-                    nollaa(input);
+                    nollaa();
                     ikkuna.setScene(havioScene);
                 }
                 
             } else {
-                nollaa(input);
+                nollaa();
                 ikkuna.setScene(voittoScene);
             }
         });
@@ -150,11 +151,12 @@ public class Kayttoliittyma extends Application {
         ikkuna.show();
     }        
     
-    public void nollaa(TextField input) {
+    public void nollaa() {
         input.setText("");
         peli.lukuYkkoseksi();
         nro.setText(peli.getLuku()+"");
         kortit.uusiPakka();
+        korttejaJaljella.setText(kortit.getKortit().size()-1+"");
     }
     
     

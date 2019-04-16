@@ -33,7 +33,7 @@ public class Kortit {
     public String nostaKortti() {   
         int korttiIndex = r.nextInt(indeksi);
         indeksi--;
-        String kortti = kortit.get(korttiIndex);
+        String kortti = kortit.get(korttiIndex);        
         kortit.remove(kortti);
         String tiedosto = "/PNG/" + kortti + ".png";
         return tiedosto;
