@@ -21,6 +21,22 @@
 
     <build>
         <plugins>
+	    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-checkstyle-plugin</artifactId>
+      <version>2.17</version>
+      <configuration>
+	<excludes>
+            <exclude>UI/*</exclude>
+        </excludes>
+        <configLocation>checkstyle.xml</configLocation>
+      </configuration>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jxr-plugin</artifactId>
+      <version>2.5</version>
+    </plugin>		
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
