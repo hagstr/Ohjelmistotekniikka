@@ -1,5 +1,5 @@
 
-package com.mycompany.pasianssi;
+package Pakka;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 
 public class Kortit {
     ArrayList<String> kortit;
+    final ArrayList<String> kopio;
     Random r;    
     int indeksi = 52;
 
@@ -22,19 +23,20 @@ public class Kortit {
             kortit.add(i + "C");
             kortit.add(i + "S");
         }
+        kopio = new ArrayList<>(kortit);
     }
     
     public ArrayList<String> getKortit() {
         return kortit;
     }
     
-    public ImageView nostaKortti() throws FileNotFoundException {   
+    public String nostaKortti() {   
         int korttiIndex = r.nextInt(indeksi);
         indeksi--;
         String kortti = kortit.get(korttiIndex);
         kortit.remove(kortti);
         String tiedosto = "/PNG/" + kortti + ".png";
-        return new ImageView(new Image(getClass().getResourceAsStream(tiedosto)));
+        return tiedosto;
     }
     
     public boolean onkoKorttejaJaljella() {
@@ -45,5 +47,8 @@ public class Kortit {
         }
     }
     
-    
+    public void uusiPakka() {
+        kortit = new ArrayList<>(kopio);
+    }
+        
 }

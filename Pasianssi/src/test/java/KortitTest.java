@@ -1,5 +1,5 @@
 
-import com.mycompany.pasianssi.Kortit;
+import Pakka.Kortit;
 import java.io.FileNotFoundException;
 import java.util.*;
 import org.junit.*;
