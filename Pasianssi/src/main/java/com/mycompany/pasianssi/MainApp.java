@@ -1,7 +1,7 @@
 
 package com.mycompany.pasianssi;
 
-import UI.Kayttoliittyma;
+import com.mycompany.pasianssi.ui.Kayttoliittyma;
 import javafx.application.Application;
 
 public class MainApp {   

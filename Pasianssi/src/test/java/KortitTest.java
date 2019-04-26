@@ -1,5 +1,5 @@
 
-import Pakka.Kortit;
+import com.mycompany.pasianssi.pakka.Kortit;
 import java.io.FileNotFoundException;
 import java.util.*;
 import org.junit.*;
@@ -43,5 +43,19 @@ public class KortitTest {
             return;
         }
         fail("Pakan koko ei pienene korttia nostettaessa");
+    }
+    
+    @Test
+    public void uusiPakkaToimii() {
+        Kortit k = new Kortit();
+        k.nostaKortti();
+        k.nostaKortti();
+        k.nostaKortti();
+        
+        k.uusiPakka();
+        if(k.getKortit().size() == 52) {            
+            return;
+        }
+        fail("Pakka ei nollaantunut");
     }
 }

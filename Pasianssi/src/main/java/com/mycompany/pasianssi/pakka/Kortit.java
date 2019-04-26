@@ -1,5 +1,5 @@
 
-package Pakka;
+package com.mycompany.pasianssi.pakka;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -17,7 +17,7 @@ public class Kortit {
     public Kortit() {
         r = new Random();
         kortit = new ArrayList<>();
-        for (int i = 2; i <= 14; i++) {
+        for (int i = 1; i <= 13; i++) {
             kortit.add(i + "H");
             kortit.add(i + "D");
             kortit.add(i + "C");
