@@ -12,5 +12,13 @@
 ### 16.4
 * 8 tuntia: sovelluksen toiminnallisuuden valmistelua, ensimmäinen release, checkstylen lisäys
 
+### 23.4
+* 2 tuntia: ulkoasun muutoksia
 
-### **Työtuntien summa: 19** 
+### 25.4
+* 6 tuntia: toiminnan korjailua jotta korttien määrä näkyy aina oikeana, testien lisäilyä, ohjeiden lisäys
+
+### 26.4
+* 1,5 tuntia: 
+
+### **Työtuntien summa: 28,5** 
