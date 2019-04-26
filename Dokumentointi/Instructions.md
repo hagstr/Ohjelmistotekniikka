@@ -17,8 +17,10 @@ pääsee joko pakan loppuun ja on voittanut, tai sitten peli päättyy kun noste
 
 ### Häviö
 ![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Screen%20Shot%202019-04-26%20at%2012.23.48.png)
+
 Jos häviää, voi halutessaan pelata pelin uudestaan klikkaamalla "Pelaa uudestaan"-nappia jolloin päätyy aloitusnäkymään. 
 
 ### Voitto
 ![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Screen%20Shot%202019-04-26%20at%2012.28.32.png)
+
 Jos voittaa, toimitaan samoin tavoin kuin hävitessään. 
