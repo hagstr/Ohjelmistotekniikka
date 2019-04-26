@@ -145,6 +145,12 @@ public class Kayttoliittyma extends Application {
         havioTekstit.setAlignment(Pos.CENTER); 
         havioTeksti.setFont(Font.font("Times New Roman", 20));          
         cardsLeft.setFont(Font.font("Times New Roman", 20));  
+        Button uusiPeli2 = new Button("Uusi peli");
+        uusiPeli2.setFont(Font.font("Times New Roman", 20));
+        
+        uusiPeli2.setOnAction(e -> {
+            ikkuna.setScene(aloitusScene);
+        });
         
         HBox vierekkaisetKortit2 = new HBox(50);       
         ImageView pakka2 = new ImageView(new Image(getClass().getResourceAsStream("/PNG/pakka.png")));   
@@ -155,7 +161,7 @@ public class Kayttoliittyma extends Application {
         vierekkaisetKortit2.getChildren().addAll(pakka2, kopio);
         vierekkaisetKortit2.setAlignment(Pos.CENTER);
         
-        havioTekstit.getChildren().addAll(havioTeksti, vierekkaisetKortit2, cardsLeft, uusiPeli);
+        havioTekstit.getChildren().addAll(havioTeksti, vierekkaisetKortit2, cardsLeft, uusiPeli2);
         havioScene = new Scene(havioTekstit, 800, 600);
         
         //Ohjescene

@@ -35,10 +35,20 @@ public class Sovelluslogiikka {
         }
     }
     
+    
+    /**
+     * Metodi muuttaa lueteltavan luvun ykköseksi, käytetään kun aloitetaan uusi peli
+     */
     public void lukuYkkoseksi() {
         luku = 1;
     }
     
+    
+    /**
+     * 
+     * @param luku = valittu arvo johon asti luetellaan
+     * @return true jos luku on epäkelpo, ja false jos luku kelpaa (eli luvut 1-13)
+     */
     public boolean epaKelpoLuku(int luku) {
         if(luku < 1 || luku > 13) {
             return true;

@@ -20,6 +20,10 @@ public class SovelluslogiikkaTest {
         fail("Luku ei päivity oikein");
     }
     
+    
+    /**
+     * Testaa että lukujen luettelu alkaa aina alusta kun koko lukujono on lueteltu
+     */
     @Test
     public void lukuPaivittyyYliRajan() {
         Sovelluslogiikka s = new Sovelluslogiikka();
