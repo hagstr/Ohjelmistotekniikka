@@ -18,10 +18,7 @@
 ### 25.4
 * 6 tuntia: toiminnan korjailua jotta korttien määrä näkyy aina oikeana, testien lisäilyä, ohjeiden lisäys
 
-### 26.4
-* 1,5 tuntia: 
-
 ### 4.5
 * 4 tuntia: sovelluksen viimeisiä muutoksia, sekä dokumentaatiota
 
-### **Työtuntien summa: 32,5** 
+### **Työtuntien summa: 31** 
