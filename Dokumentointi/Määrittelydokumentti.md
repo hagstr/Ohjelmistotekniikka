@@ -14,18 +14,19 @@ Sovelluksessa on viisi eri näkymää.
 ![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/laskarit/IMG_0784.JPG)
 
  **Alkunäkymässä** on otsikkona pelin nimi, sekä kenttä johon käyttäjä
-syöttää luvun välillä 1-13. Kentän alla on aloita-nappi joka aloittaa pelin, ja näkymän alareunasta
-löytyvät pelin säännöt. Mikäli käyttäjä syöttää epäkelvon luvun, järjestelmä ilmoittaa tästä. 
+syöttää luvun välillä 1-13. Kentän alla on aloita-nappi joka aloittaa pelin, ja mikäli käyttäjä syöttää epäkelvon luvun, järjestelmä ilmoittaa tästä. Näkymän yläreunasta löytyy myös i-nappi, jota painamalla pelin ohjeet avautuvat. 
 
-**Toisessa** näkymässä lukee ylimpänä jäljellä oleva korttimäärä ja alhaalla näkyy lueteltava luku. 
+**Ohjenäkymässä** kerrotaan tarkemmin pelin säännöistä, sekä annetaan esimerkki pelin pelaamisesta. 
+
+**Pelinäkymässä** lukee ylimpänä jäljellä oleva korttimäärä ja alhaalla näkyy lueteltava luku. 
 Näkymän keskiosassa on kaksi korttipakkaa, joista oikeanpuoleisessa on kuvapuoli ylöspäin ja toisessa alaspäin.
-Pakassa jossa on kuvapuoli ylöspäin näkyy viimeksi nostettu kortti. Jos pääsee pakan loppuun, eli
-voittaa, niin vasemmanpuoleinen pakka katoaa (sillä kortit ovat loppu).
+Pakassa jossa on kuvapuoli ylöspäin näkyy viimeksi nostettu kortti. Uusi kortti nostetaan klikkaamalla vasenta pakkaa.
 
-**Kolmas** näkymä on joko voitto-ruutu tai häviö-ruutu, joka ilmestyy pelinn loputtua. Näkymistä löytyy
-"Uudestaan?"-nappi, jota painamalla pääsee ensimmäiseen näkymään ja voi halutessaan pelata uudestaan. 
+**Häviönäkymässä** näkyy korttimäärä, häviökortti sekä lueteltu luku pelin loppuessa. Näkymästä löytyy
+"Pelaa uudestaan"-nappi, jota painamalla pääsee ensimmäiseen näkymään ja voi halutessaan pelata uudestaan. 
 
-**Ohjenäkymä** löytyy myös sovelluksesta, ja siellä kerrotaan tarkemmin pelin säännöistä. 
+**Voittonäkymästä** ilmestyy jos pääsee pakan loppuun. Tästäkin näkymästä löytyy
+"Pelaa uudestaan"-nappi.
 
 ## Jatkokehitysiedoita 
 * Mahdollisuus käyttäjätunnuksen luomiseen, jolloin voi tallentaa tilastoa pelatuista peleistä, esim. voisi
