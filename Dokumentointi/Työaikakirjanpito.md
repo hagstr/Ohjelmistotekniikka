@@ -21,4 +21,7 @@
 ### 26.4
 * 1,5 tuntia: 
 
+### 4.5
+* 4 tuntia: sovelluksen viimeisiä muutoksia, sekä dokumentaatiota
+
 ### **Työtuntien summa: 28,5** 
