@@ -11,7 +11,7 @@ on jos esimerkiksi nostetaan kortti jonka arvo on 4 samalla kun luetellaan luku 
 ## Käyttöliittymäluonnos ja toiminnallisuus
 Sovelluksessa on neljä eri näkymää.
 
-![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/laskarit/IMG_0451.jpg)
+![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/laskarit/IMG_0784.JPG)
 
  **Alkunäkymässä** on otsikkona pelin nimi, sekä kenttä johon käyttäjä
 syöttää luvun välillä 1-13. Kentän alla on aloita-nappi joka aloittaa pelin, ja näkymän alareunasta
