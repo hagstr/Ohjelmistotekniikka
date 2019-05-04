@@ -1,4 +1,4 @@
-## Kayttöohjeet:
+## Käyttöohjeet:
 
 Aloita lataamalla pelitiedosto [pasianssi.jar](https://github.com/hagstr/Ohjelmistotekniikka/releases)
 
