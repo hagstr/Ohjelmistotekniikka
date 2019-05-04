@@ -25,7 +25,7 @@ Pakassa jossa on kuvapuoli ylöspäin näkyy viimeksi nostettu kortti. Uusi kort
 **Häviönäkymässä** näkyy korttimäärä, häviökortti sekä lueteltu luku pelin loppuessa. Näkymästä löytyy
 "Pelaa uudestaan"-nappi, jota painamalla pääsee ensimmäiseen näkymään ja voi halutessaan pelata uudestaan. 
 
-**Voittonäkymästä** ilmestyy jos pääsee pakan loppuun. Tästäkin näkymästä löytyy
+**Voittonäkymä** ilmestyy jos pääsee pakan loppuun. Tästäkin näkymästä löytyy
 "Pelaa uudestaan"-nappi.
 
 ## Jatkokehitysiedoita 
