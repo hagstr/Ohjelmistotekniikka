@@ -2,7 +2,7 @@
 
 ### Pelin aloittaminen
 Sovellus käynnistyy aloitusnäkymään
-![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Screen%20Shot%202019-04-26%20at%2012.22.26.png)
+![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Screen%20Shot%202019-05-04%20at%2022.46.30.png)
 Aloitusnäkymässä tulee kirjoittaa luku 1 ja 13 välillä syötekenttään ja painaa aloita-nappia aloittaakseen pelin. Halutessaan voi myös 
 lukea pelin ohjeet vasemmasta yläreunasta klikkaamalla i-nappia. 
 
