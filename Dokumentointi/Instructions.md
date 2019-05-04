@@ -1,5 +1,14 @@
 ## Kayttöohjeet:
 
+Aloita lataamalla pelitiedosto [pasianssi.jar](https://github.com/hagstr/Ohjelmistotekniikka/releases)
+
+### Pelin käynnistäminen
+Peli käynnistyy kirjoittamalla komento
+
+```
+java -jar pasianssi.jar
+```
+
 ### Pelin aloittaminen
 Sovellus käynnistyy aloitusnäkymään
 ![alt text](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Screen%20Shot%202019-05-04%20at%2022.46.30.png)
