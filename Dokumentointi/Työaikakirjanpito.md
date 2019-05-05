@@ -21,4 +21,7 @@
 ### 4.5
 * 4 tuntia: sovelluksen viimeisiä muutoksia, sekä dokumentaatiota
 
-### **Työtuntien summa: 31** 
+### 5.5
+* 5 tuntia: dokumentaation viimeistelyä ja pieniä muutoksia ohjelmaan
+
+### **Työtuntien summa: 36** 
