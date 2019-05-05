@@ -13,6 +13,8 @@ Sovellus on pasianssipeli jossa pelaaja luettelee lukuja 1-13 välillä samalla 
 
 * [Käyttöohjeet](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Instructions.md)
 
+* [Testausdokumentti](https://github.com/hagstr/Ohjelmistotekniikka/blob/master/Dokumentointi/Testausdokumentti.md)
+
 
 ## Releaset
 * [Ensimmäinen release (Viikko 5)](https://github.com/hagstr/Ohjelmistotekniikka/releases/tag/viikko5)
