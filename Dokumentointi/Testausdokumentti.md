@@ -16,8 +16,7 @@ Ainoa asia joka jäi testaamatta on, että epakelpoLuku() palauttaa false jos lu
 Järjestelmätestaus suoritettiin sovellukselle automaattisesti. 
 
 ### Asennus
-Sovellus on ladattu koneelle OSX-käyttjärjestelmää käyttäen, sekä koneella josta sovellus löytyy ennestään että koneella jolla peliä ei ollut 
-ennen pelattu. Asennus onnistui molemmilla tavoilla. 
+Sovellus on ladattu koneelle OSX-käyttjärjestelmää käyttäen, sekä koneella josta sovellus löytyy ennestään että koneella jolla peliä ei ollut ennen pelattu. Asennus onnistui molemmilla tavoilla. Myös Windowsilla sovelluksen avaaminen ja pelaaminen onnistuu hyvin. 
 
 ### Toiminnallisuudet
 Pelin kaikkia toiminnallisuuksia on testattu, ja ne vastaavat määrittelydokumentissä esiteltyjä toiminnallisuuksia. Myös virheellisi syötteitä
