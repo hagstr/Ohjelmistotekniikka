@@ -1,12 +1,11 @@
-package com.mycompany.pasianssi.ui;
+package pasianssi.ui;
 
-import com.mycompany.pasianssi.Sovelluslogiikka;
-import com.mycompany.pasianssi.pakka.Kortit;
+import pasianssi.domain.Sovelluslogiikka;
+import pasianssi.domain.Kortit;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -20,10 +19,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
-import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
-import javax.swing.Icon;
-import javax.swing.JButton;
 
 
 public class Kayttoliittyma extends Application {
@@ -207,16 +203,36 @@ public class Kayttoliittyma extends Application {
         input = new TextField("");
         input.setFont(Font.font("Times New Roman", 15));
         
-        HBox ylaSymbolit = new HBox(); //jatka        
+        HBox ylaSymbolit = new HBox();  
+        ImageView hertta = new ImageView(new Image(getClass().getResourceAsStream("/PNG/heart.png"))); 
+        ImageView pata = new ImageView(new Image(getClass().getResourceAsStream("/PNG/spade.png"))); 
+        hertta.setFitHeight(40);
+        hertta.setPreserveRatio(true);
+        pata.setFitHeight(40);
+        pata.setPreserveRatio(true);
+        ylaSymbolit.getChildren().addAll(hertta, pata);
+        ylaSymbolit.setSpacing(600);
+        
+        
+        HBox alaSymbolit = new HBox();
+        ImageView ruutu = new ImageView(new Image(getClass().getResourceAsStream("/PNG/diamond.png"))); 
+        ImageView risti = new ImageView(new Image(getClass().getResourceAsStream("/PNG/club.png"))); 
+        ruutu.setFitHeight(40);
+        ruutu.setPreserveRatio(true);
+        risti.setFitHeight(40);
+        risti.setPreserveRatio(true);
+        alaSymbolit.getChildren().addAll(risti, ruutu);
+        alaSymbolit.setSpacing(600);
         
         aloitaNappi.setOnAction(e -> {
             if(input.getText().equals("")) {
                 epaKelpo.setText("Syötä luku");
             }
             luku = Integer.valueOf(input.getText());
-            if(peli.epaKelpoLuku(luku)) {
+            if(peli.epakelpoLuku(luku)) {
                 epaKelpo.setText(luku + " on epäkelpo luku");
             } else {
+                epaKelpo.setText("");
                 peli.setArvo(luku);            
                 ikkuna.setScene(peliScene);                
             }
@@ -229,7 +245,7 @@ public class Kayttoliittyma extends Application {
             ikkuna.setScene(ohjeScene);
         });
         
-        aloitus.getChildren().addAll(pelinNimi, syotaLuku, input, epaKelpo, aloitaNappi);
+        aloitus.getChildren().addAll(ylaSymbolit, pelinNimi, syotaLuku, input, epaKelpo, aloitaNappi, alaSymbolit);
         aloitus.setAlignment(Pos.CENTER);
         main.setCenter(aloitus);
         main.setTop(ohjeNappi);
@@ -246,12 +262,13 @@ public class Kayttoliittyma extends Application {
     * 
     */
     public void nollaa() {
-        input.setText("");
+        input.setText("");        
         peli.lukuYkkoseksi();       
         nro.setText("");        
         kortit.uusiPakka();        
         nostettuKortti.setImage(null);
         korttejaJaljella.setText(kortit.getKortit().size()+"");
+        kortit.setIndeksi();
     }
     
     

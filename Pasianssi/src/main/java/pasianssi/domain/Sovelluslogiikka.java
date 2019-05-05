@@ -1,8 +1,10 @@
 
-package com.mycompany.pasianssi;
+package pasianssi.domain;
 
-import com.mycompany.pasianssi.pakka.Kortit;
-
+/**
+ * Pääluokka joka vastaa pelin toiminnallisuudesta, pääasiallisesti luvun luetteluun tarvittavista metodeista
+ * @author sarahagstrom
+ */
 public class Sovelluslogiikka {
     int valittuArvo;
     int luku = 1;
@@ -49,7 +51,7 @@ public class Sovelluslogiikka {
      * @param luku = valittu arvo johon asti luetellaan
      * @return true jos luku on epäkelpo, ja false jos luku kelpaa (eli luvut 1-13)
      */
-    public boolean epaKelpoLuku(int luku) {
+    public boolean epakelpoLuku(int luku) {
         if(luku < 1 || luku > 13) {
             return true;
         } 

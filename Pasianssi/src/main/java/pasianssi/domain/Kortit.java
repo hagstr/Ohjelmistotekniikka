@@ -1,5 +1,5 @@
 
-package com.mycompany.pasianssi.pakka;
+package pasianssi.domain;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -8,6 +8,11 @@ import javafx.scene.image.ImageView;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+
+/**
+ * Luokka joka vastaa pelin käytössä olevasta korttipakasta
+ * @author sarahagstrom
+ */
 public class Kortit {
     ArrayList<String> kortit;
     final ArrayList<String> kopio;
@@ -30,6 +35,11 @@ public class Kortit {
         return kortit;
     }
     
+    
+    /**
+     * Poistaa (eli nostaa) ylimmän kortin pakasta
+     * @return seuraavan kortin tiedostonimi
+     */
     public String nostaKortti() {   
         int korttiIndex = r.nextInt(indeksi);
         indeksi--;
@@ -39,6 +49,11 @@ public class Kortit {
         return tiedosto;
     }
     
+    
+   /**
+    * Tarkistaa jos pakka on tyhjä
+    * @return true jos kortteja on vielä jäljellä, muulloin false
+    */
     public boolean onkoKorttejaJaljella() {
         if(kortit.isEmpty()) {
             return false;
@@ -47,8 +62,15 @@ public class Kortit {
         }
     }
     
+    /**
+    Nollaa pakan, eli kokoaa uuden 52 kortin pakan
+    */
     public void uusiPakka() {
         kortit = new ArrayList<>(kopio);
+    }
+    
+    public void setIndeksi() {
+        indeksi = 52;
     }
         
 }
