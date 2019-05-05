@@ -1,12 +1,12 @@
 ## Käyttöohjeet:
 
-Aloita lataamalla pelitiedosto [pasianssi.jar](https://github.com/hagstr/Ohjelmistotekniikka/releases/tag/viikko7)
+Aloita lataamalla pelitiedosto [Pasianssi-1.0-SNAPSHOT.jar](https://github.com/hagstr/Ohjelmistotekniikka/releases/tag/viikko7)
 
 ### Pelin käynnistäminen
 Peli käynnistyy kirjoittamalla komento
 
 ```
-java -jar pasianssi.jar
+java -jar Pasianssi-1.0-SNAPSHOT.jar
 ```
 
 ### Pelin aloittaminen
