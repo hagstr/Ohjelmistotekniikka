@@ -225,6 +225,11 @@ public class Kayttoliittyma extends Application {
         alaSymbolit.setSpacing(600);
         
         aloitaNappi.setOnAction(e -> {
+            try{
+                int inputLuku = Integer.parseInt(input.getText());
+            }catch (NumberFormatException ex) { 
+                epaKelpo.setText("Vääränlainen syöte, syötä luku");
+            }
             if(input.getText().equals("")) {
                 epaKelpo.setText("Syötä luku");
             }
